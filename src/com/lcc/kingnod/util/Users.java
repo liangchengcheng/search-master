@@ -7,6 +7,9 @@ import java.io.Serializable;
 
 public class Users {
 
+    /**
+     * 获取用户的id
+     */
     public static Long userId() {
         ShiroDbRealm.ShiroUser shiroUser = (ShiroDbRealm.ShiroUser) SecurityUtils.getSubject().getPrincipal();
         return shiroUser.id;

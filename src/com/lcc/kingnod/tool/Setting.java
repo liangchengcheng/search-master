@@ -8,13 +8,15 @@ public class Setting {
     /**
      * 操作类型
      */
-    public enum ActionType{
-        create("创建"),update("修改"),view("视图");
+    public enum ActionType {
+        create("创建"), update("修改"), view("视图");
         private final String typeName;
-        ActionType(final String typeName){
-            this.typeName=typeName;
+
+        ActionType(final String typeName) {
+            this.typeName = typeName;
         }
-        public String getTypeName(){
+
+        public String getTypeName() {
             return typeName;
         }
     }
