@@ -41,6 +41,7 @@ public class ChatService {
     public List<Chat> findNotReadChat(){
         return chatDao.findNotReadChat("N");
     }
+
     /**
      * 将未读数据设置为已读
      */
