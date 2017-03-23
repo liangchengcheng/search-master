@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e9baf6-2b9b-4165-b96d-874804c8ee09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/aop/LogAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/EsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/ChatController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java" afterPath="$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java" />
     </list>
     <ignored path="search-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +30,34 @@
       <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="74">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/EsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="839">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="e#1505#1521#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <element signature="e#2033#2034#0" expanded="true" />
+                <element signature="e#2574#2604#0" expanded="true" />
+                <element signature="e#2770#2791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/ChatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,18 +65,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EsController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/EsController.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="-166">
+              <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1505#1521#0" expanded="true" />
-                <element signature="e#1983#1984#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2574#2604#0" expanded="true" />
-                <element signature="e#2770#2791#0" expanded="true" />
+                <element signature="e#2380#2388#0" expanded="true" />
+                <element signature="e#4371#4372#0" expanded="true" />
+                <element signature="e#4400#4401#0" expanded="true" />
+                <element signature="e#5495#5504#0" expanded="true" />
+                <element signature="e#5674#5686#0" expanded="true" />
+                <element signature="e#6114#6125#0" expanded="true" />
+                <element signature="e#6171#6177#0" expanded="true" />
+                <element signature="e#6261#6267#0" expanded="true" />
+                <element signature="e#6790#6799#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +163,10 @@
         <option value="$PROJECT_DIR$/src/com/lcc/kingnod/elasticsearch/EsClientConfig.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/kingnod/service/SearchService.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/kingnod/aop/LogAspect.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/kingnod/controller/EsController.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/kingnod/controller/ChatController.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/kingnod/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -145,7 +177,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="65" />
     <option name="y" value="60" />
     <option name="width" value="1148" />
     <option name="height" value="698" />
@@ -702,15 +734,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490050207549</updated>
-      <workItem from="1490050209335" duration="16450000" />
+      <workItem from="1490050209335" duration="17416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16450000" />
+    <option name="totallyTimeSpent" value="17416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="60" width="1148" height="698" extended-state="0" />
+    <frame x="65" y="60" width="1148" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1334,16 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/service/SearchService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2341">
@@ -1352,17 +1374,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/EsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="839">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1505#1521#0" expanded="true" />
             <element signature="e#1983#1984#0" expanded="true" />
             <element signature="e#2033#2034#0" expanded="true" />
             <element signature="e#2574#2604#0" expanded="true" />
             <element signature="e#2770#2791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/kingnod/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="239" column="10" selection-start-line="239" selection-start-column="10" selection-end-line="239" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2380#2388#0" expanded="true" />
+            <element signature="e#4371#4372#0" expanded="true" />
+            <element signature="e#4400#4401#0" expanded="true" />
+            <element signature="e#5495#5504#0" expanded="true" />
+            <element signature="e#5674#5686#0" expanded="true" />
+            <element signature="e#6114#6125#0" expanded="true" />
+            <element signature="e#6171#6177#0" expanded="true" />
+            <element signature="e#6261#6267#0" expanded="true" />
+            <element signature="e#6790#6799#0" expanded="true" />
           </folding>
         </state>
       </provider>
